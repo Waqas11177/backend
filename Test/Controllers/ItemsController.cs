@@ -9,10 +9,6 @@ namespace Test.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
-
-
-
     public class ItemsController : ControllerBase
     {
         private readonly ILogger<ItemsController> _logger;
